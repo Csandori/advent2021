@@ -19,6 +19,12 @@ let answer = values.reduce((a, b) => {
 console.log("PART 1");
 console.log(answer);
 
+// PART 1 in 3 lines
+
+console.log(values.reduce((a, b) => {
+    return a + Math.abs(b - values[values.length / 2]);
+  }, 0));
+
 // PART 2
 
 getIndex(values, 1, values.length - 2);

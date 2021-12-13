@@ -31,7 +31,6 @@ let partOne = () => {
     )
       .map((el) => el.split(",").map(Number))
       .sort((a, b) => a[0] - b[0]);
-    //console.log(input.dots);
     if (foldValue === 0) {
       console.log(input.dots.length);
     }

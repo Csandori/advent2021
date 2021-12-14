@@ -16,7 +16,7 @@ let values = lines.map((el) => {
   return object;
 });
 
-// part 1
+// PART 1
 
 let occupiedZone = {};
 
@@ -33,7 +33,7 @@ for (let i = 0; i < values.length; i++) {
 }
 console.log(Object.values(occupiedZone).filter((el) => el > 1).length);
 
-// Part 2
+// PART 2
 
 let occupiedZone2 = {};
 for (let i = 0; i < values.length; i++) {
